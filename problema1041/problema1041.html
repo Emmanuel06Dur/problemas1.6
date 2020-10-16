@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../github.png" type="image/png">
+    <title>Problema 1041 \\ Emmanuel Duran</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <center>
+        <div class="problema">
+            <br><p>Juez Uri Online \ 1041</p>
+        </div>
+        <div class="tituloproblema">
+            <strong><p>Coordenadas de un punto</p></strong>
+        </div>
+    </center>
+    <p class="descripcion">Escribe un algoritmo que lea dos valores flotantes (xey), que deberían representar las coordenadas de un punto en un plano. A continuación, determine a qué cuadrante pertenece el punto, o si está en uno de los ejes cartesianos o en el origen (x = y = 0).</p><center><img src="puntoscoor.png" style="border-radius: 10px;"></center><br>
+    <p class="descripcion">Si el punto está en el origen, escriba el mensaje "Origem". Si el punto está en el eje X, escriba "Eixo X", de lo contrario, si el punto está en el eje Y, escriba "Eixo Y".</p>
+    <p class="conceptos"><strong>Entrada</strong></p>
+    <p class="descripcion">La entrada contiene las coordenadas de un punto.</p>
+    <p class="conceptos"><strong>Salida</strong></p>
+    <p class="descripcion">La salida debe mostrar el cuadrante en el que se encuentra el punto.</p>
+    <center>
+        <table class="table textot">
+            <thead>
+              <tr>
+                <th scope="col">Muestra de entrada</th>
+                <th scope="col">Muestra de salida</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">4.5  -2.2</th>
+                <td>Cuarto Cuadrante</td>
+              </tr>
+              <tr>
+                <th scope="row">0.1  0.1</th>
+                <td>Primer Cuadrante</td>
+              </tr>
+            </tbody>
+        </table>
+    </center>
+    <p class="conceptos"><strong>Funcionalidad: Inserte dos datos correspondientes a un punto en el plano</strong></p>
+    <div class="input-group mb-3" style="padding-left: 5%; padding-right: 5%;">
+        <input type="text" id="ejex" class="form-control" placeholder="Eje X" aria-label="Recipient's username" aria-describedby="basic-addon2" style="color: #fff;">
+        <input type="text" id="ejey" class="form-control" placeholder="Eje Y" aria-label="Recipient's username" aria-describedby="basic-addon2" style="color: #fff;">
+        <div class="input-group-prepend">
+            <input type="button" class="btn btn-outline-secondary" value="Ubicar" id="btnVerificar" onclick="plano()">
+        </div>
+    </div>
+    <div style="color: white; font-family: Comic Sans MS; padding-left: 5%;" id="resultadof"></div>
+    <center><a class="btn btn-outline-primary" href="../index.html" role="button">Regresar a Menú</a></center>
+    <!-- Script JS Funcionalidad-->
+    <script type="text/javascript" src="evaluacion.js"></script>
+</body>
+</html>
