@@ -1,0 +1,38 @@
+*{
+    background: url("fondo.jpg");
+    background-position: bottom;
+}
+.problema{
+    font-size: 15px;
+    color: #fff;
+    font-style: oblique;
+}
+.tituloproblema{
+    font-size: 25px;
+    color: #fff;
+}
+.descripcion{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 15px;
+    color: #fff;
+    text-align: justify;
+}
+.conceptos{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 17px;
+    color: #fff;
+    text-align: justify;
+}
+.textot{
+    color:#fff;
+    border-color: #fff;
+}
+.boton{
+    color: #fff;
+    border-radius: 5px;
+    position: relative;
+}
+
+

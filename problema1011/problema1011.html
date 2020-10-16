@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../github.png" type="image/png">
+    <title>Problema 1011 \\ Emmanuel Duran</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <center>
+        <div class="problema">
+            <br><p>Juez Uri Online \ 1011</p>
+        </div>
+        <div class="tituloproblema">
+            <strong><p>Esfera</p></strong>
+        </div>
+    </center>
+    <p class="descripcion">Haga un programa que calcule y muestre el volumen de una esfera proporcionándole el valor de su radio (R). La fórmula para calcular el volumen es: (4/3) * pi * R 3 . Considere (asigne) para pi el valor 3,14159. Consejo: use (4 / 3.0) o (4.0 / 3) en su fórmula, porque algunos lenguajes (incluido C ++) asumen que el resultado de la división entre dos números enteros es otro número entero. :)</p>
+    <p class="conceptos"><strong>Entrada</strong></p>
+    <p class="descripcion">La entrada contiene un valor de coma flotante (precisión doble).</p>
+    <p class="conceptos"><strong>Salida</strong></p>
+    <p class="descripcion">La salida debe ser un mensaje "VOLUMEN" como el siguiente ejemplo con un espacio antes y después de la señal igual. El valor debe presentarse con 3 dígitos después del punto decimal.</p><br>
+    <center>
+    <table class="table textot">
+        <thead>
+          <tr>
+            <th scope="col">Muestra de entrada</th>
+            <th scope="col">Muestra de salida</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">3</th>
+            <td>Volumen = 113.097</td>
+          </tr>
+          <tr>
+            <th scope="row">15</th>
+            <td>Volumen = 14137.155</td>
+          </tr>
+        </tbody>
+    </table>
+    </center>
+    <p class="conceptos"><strong>Funcionalidad: Inserte un dato (radio de la esfera)</strong></p>
+    
+
+    <div class="input-group mb-3" style="padding-left: 5%; padding-right: 5%;">
+        <div class="input-group-prepend">
+            <input type="button" class="btn btn-outline-secondary" value="Calcular" id="btnCalcular" onclick="volumen()">
+        </div>
+        <input type="text" id="datop" class="form-control" placeholder="Radio de la Esfera" aria-label="Recipient's username" aria-describedby="basic-addon2" style="color: #fff;">
+    </div>
+
+    <div style="color: white; font-family: Comic Sans MS; padding-left: 5%;" id="resultadof"></div>
+    <!--div class="input-group mb-3" style="padding-left: 5%; padding-right: 5%;">
+        <input type="text" id="resultadof" class="form-control" placeholder="Resultado" aria-label="Recipient's username" aria-describedby="basic-addon2" disabled style="color: #fff;">
+    </div-->
+    <!-- Script JS Funcionalidad-->
+    <script type="text/javascript" src="evaluacion.js"></script>
+</body>
+</html>
